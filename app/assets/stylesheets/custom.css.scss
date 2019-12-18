@@ -1,0 +1,26 @@
+$navbar-default-bg : #08088A;
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+.navbar-brand{
+    font-size :1.7em;
+    float: left; 
+    color: aqua;
+    text-transform: uppercase;
+}
+.center{
+    text-align: center;
+}
+
+.jumbotron{
+    background-color: crimson;
+    height : 500px;
+    background-size: cover;
+}
+
+.jumbotron h1{
+    letter-spacing: -1px;
+    margin-bottom: 30px;
+    text-align: center;
+}

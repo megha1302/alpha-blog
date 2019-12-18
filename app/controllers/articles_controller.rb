@@ -21,17 +21,17 @@ class ArticlesController < ApplicationController
        
     end 
 
-    def show
-        
-    end 
+    
 
     def destroy
        
         @article.destroy
+    
         if(@article.destroy)
             flash[:notice]='Article sucessfully destroyed'
         end    
-        redirect_to article_path(@article) 
+        redirect_to article_path(@article)
+    
     end    
 
     
@@ -43,7 +43,11 @@ class ArticlesController < ApplicationController
         else
             render 'edit'
         end        
-    end     
+    end  
+    def show
+       # @article=Article.find(params[:id]) 
+       
+     end    
 
     private
      def set_article
