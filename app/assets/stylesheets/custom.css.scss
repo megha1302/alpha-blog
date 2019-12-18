@@ -21,6 +21,40 @@ $navbar-default-bg : #08088A;
 
 .jumbotron h1{
     letter-spacing: -1px;
-    margin-bottom: 30px;
+    margin-bottom: 20px;
     text-align: center;
 }
+
+footer{
+    margin-top: 50px;
+    padding-top: 3px;
+    color: lightskyblue;
+    
+}
+footer small{
+    float:right;
+}
+.article-actions {
+
+    border-top: 1px solid #ccc2c2;
+    padding-top: 5px;
+    
+    }
+    
+    .description {
+        margin-top: 0;
+    }
+    
+    tr{
+        padding: 5px 5px 5px 5px;
+        
+    }
+    td{
+        padding: 5px 5px 5px 5px;
+        text-align: center;
+    }
+    th{
+        padding: 5px 5px 5px 5px;
+        font-style: oblique;
+        text-align: inherit;
+    }
